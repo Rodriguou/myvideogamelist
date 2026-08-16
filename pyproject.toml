@@ -1,0 +1,19 @@
+[project]
+name = "myvideogamelist"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rodrigo Matos", email = "rodrigo.matos2077@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "customtkinter>=6.0.0",
+]
+
+[project.scripts]
+myvideogamelist = "myvideogamelist.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
