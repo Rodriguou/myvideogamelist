@@ -1,7 +1,7 @@
 import customtkinter as ctk
-from models.database import init_db
-from views.main_view import MainView
-from controllers.main_controller import MainController
+from myvideogamelist.models.database import init_db
+from myvideogamelist.views.main_view import MainView
+from myvideogamelist.controllers.main_controller import MainController
 
 def main():
     # Initialize the database (creates tables if they don't exist)

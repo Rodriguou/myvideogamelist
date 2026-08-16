@@ -1,4 +1,4 @@
-from models.database import get_connection
+from myvideogamelist.models.database import get_connection
 
 def get_all_sagas():
     """Retrieves all sagas from the database."""

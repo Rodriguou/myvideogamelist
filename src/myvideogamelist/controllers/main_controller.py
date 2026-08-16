@@ -1,6 +1,6 @@
-from models import game_model, saga_model
-from views.game_view import GameDialog
-from views.saga_view import SagaDialog
+from myvideogamelist.models import game_model, saga_model
+from myvideogamelist.views.game_view import GameDialog
+from myvideogamelist.views.saga_view import SagaDialog
 
 class MainController:
     def __init__(self, view):
