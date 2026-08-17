@@ -20,4 +20,4 @@ This file contains the rules and conventions that AI agents must follow when wor
 ## 4. Git & Commits
 - **Semantic Commits:** All commit messages MUST follow the semantic convention (e.g., `feat:`, `chore:`, `fix:`, `refactor:`, `docs:`).
 - **Commit Language:** Commit messages MUST be written in **English** (e.g., `feat: add search functionality to main view`).
-- **Workflow:** Always work on feature branches (e.g., `feature/nome-da-feature`) and avoid committing directly to the `main` branch.
+- **Workflow:** Always work on feature branches (e.g., `feature/feature-name`) and avoid committing directly to the `main` branch.
